@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>popover-弹出提示 | pencil-vue</title>
+    <meta name="description" content="一个手绘风格的UI框架">
+    <link rel="icon" href="/logo.jpg">
+    
+    <link rel="preload" href="/assets/css/0.styles.e7f8833f.css" as="style"><link rel="preload" href="/assets/js/app.6364cb19.js" as="script"><link rel="preload" href="/assets/js/21.71743592.js" as="script"><link rel="preload" href="/assets/js/13.45a1d239.js" as="script"><link rel="preload" href="/assets/js/3.b1037315.js" as="script"><link rel="prefetch" href="/assets/js/1.29d33815.js"><link rel="prefetch" href="/assets/js/10.6f4e0f80.js"><link rel="prefetch" href="/assets/js/11.ac9a2d75.js"><link rel="prefetch" href="/assets/js/12.513d1fff.js"><link rel="prefetch" href="/assets/js/14.5de39e67.js"><link rel="prefetch" href="/assets/js/15.ae13e509.js"><link rel="prefetch" href="/assets/js/16.b33d961d.js"><link rel="prefetch" href="/assets/js/17.f4fe58ac.js"><link rel="prefetch" href="/assets/js/18.8a32c17a.js"><link rel="prefetch" href="/assets/js/19.973041b8.js"><link rel="prefetch" href="/assets/js/2.f5ec3c60.js"><link rel="prefetch" href="/assets/js/20.28b336ac.js"><link rel="prefetch" href="/assets/js/22.76bf231e.js"><link rel="prefetch" href="/assets/js/23.ec6e4fcf.js"><link rel="prefetch" href="/assets/js/24.028f3108.js"><link rel="prefetch" href="/assets/js/25.a17ab1bb.js"><link rel="prefetch" href="/assets/js/26.0684ff83.js"><link rel="prefetch" href="/assets/js/5.d621ec80.js"><link rel="prefetch" href="/assets/js/6.f5ab9101.js"><link rel="prefetch" href="/assets/js/7.cd571fe2.js"><link rel="prefetch" href="/assets/js/8.0a7e6189.js"><link rel="prefetch" href="/assets/js/9.775ac4d0.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.e7f8833f.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><img src="/logo.jpg" alt="pencil-vue" class="logo"> <span class="site-name can-hide">pencil-vue</span></a> <div class="links" style="max-width:nullpx;"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/" class="nav-link">Home</a></div> <a href="https://github.com/qq919006380/pencil-vue" target="_blank" rel="noopener noreferrer" class="repo-link">
+    GitHub
+    <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></nav></div></header> <div class="sidebar-mask"></div> <div class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/" class="nav-link">Home</a></div> <a href="https://github.com/qq919006380/pencil-vue" target="_blank" rel="noopener noreferrer" class="repo-link">
+    GitHub
+    <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></nav>  <ul class="sidebar-links"><li><div class="sidebar-group first"><p class="sidebar-heading"><span>入门</span> <!----></p> <ul class="sidebar-group-items"><li><a href="/install/" class="sidebar-link">Hello World</a></li></ul></div></li><li><div class="sidebar-group"><p class="sidebar-heading open"><span>组件</span> <!----></p> <ul class="sidebar-group-items"><li><a href="/components/button.html" class="sidebar-link">button</a></li><li><a href="/components/input.html" class="sidebar-link">input</a></li><li><a href="/components/card.html" class="sidebar-link">card</a></li><li><a href="/components/checkbox.html" class="sidebar-link">checkbox</a></li><li><a href="/components/tabs.html" class="sidebar-link">tabs</a></li><li><a href="/components/popover.html" class="active sidebar-link">popover</a></li><li><a href="/components/toast.html" class="sidebar-link">toast</a></li></ul></div></li><li><div class="sidebar-group collapsable"><p class="sidebar-heading"><span>例子</span> <span class="arrow right"></span></p> <!----></div></li></ul> </div> <div class="page"> <div class="content"><h1 id="popover-弹出提示"><a href="#popover-弹出提示" aria-hidden="true" class="header-anchor">#</a> popover-弹出提示</h1> <hr> <div data-v-ca65d1ac><h3 data-v-ca65d1ac>使用方法</h3> <h4 data-v-ca65d1ac>预览</h4> <div class="popover popover" data-v-450692d2 data-v-ca65d1ac><!----> <span id="triggerWrapper" style="display:inline-block;" data-v-450692d2> <div id="btn" class="host" data-v-bae96b7c data-v-ca65d1ac>click激活 <div class="overlay" data-v-bae96b7c><svg id="svg" data-v-bae96b7c></svg></div></div></span></div> <div class="popover popover" data-v-450692d2 data-v-ca65d1ac><!----> <span id="triggerWrapper" style="display:inline-block;" data-v-450692d2> <div id="btn" class="host" data-v-bae96b7c data-v-ca65d1ac>不同方位 <div class="overlay" data-v-bae96b7c><svg id="svg" data-v-bae96b7c></svg></div></div></span></div> <div class="popover popover" data-v-450692d2 data-v-ca65d1ac><!----> <span id="triggerWrapper" style="display:inline-block;" data-v-450692d2> <div id="btn" class="host" data-v-bae96b7c data-v-ca65d1ac>hover激活 <div class="overlay" data-v-bae96b7c><svg id="svg" data-v-bae96b7c></svg></div></div></span></div> <pre data-v-ca65d1ac><code class="html" data-v-ca65d1ac>&lt;pc-popover class=&quot;popover&quot;&gt;
+  &lt;template slot=&quot;content&quot;&gt;弹出的内容&lt;/template&gt;
+  &lt;pc-button&gt;click激活&lt;/pc-button&gt;
+&lt;/pc-popover&gt;
+&lt;pc-popover position=&quot;bottom&quot; class=&quot;popover&quot;&gt;
+  &lt;template slot=&quot;content&quot;&gt;弹出的内容&lt;/template&gt;
+  &lt;pc-button&gt;不同方位&lt;/pc-button&gt;
+&lt;/pc-popover&gt;
+&lt;pc-popover trigger=&quot;hover&quot; class=&quot;popover&quot;&gt;
+  &lt;template slot=&quot;content&quot;&gt;弹出的内容&lt;/template&gt;
+  &lt;pc-button&gt;hover激活&lt;/pc-button&gt;
+&lt;/pc-popover&gt;</code></pre></div></div> <div class="page-edit"><!----> <!----></div> <div class="page-nav"><p class="inner"><span class="prev">
+        ←
+        <a href="/components/tabs.html" class="prev">
+          tabs
+        </a></span> <span class="next"><a href="/components/toast.html">
+          toast
+        </a>
+        →
+      </span></p></div> </div> <!----></div></div>
+    <script src="/assets/js/app.6364cb19.js" defer></script><script src="/assets/js/21.71743592.js" defer></script><script src="/assets/js/13.45a1d239.js" defer></script><script src="/assets/js/3.b1037315.js" defer></script>
+  </body>
+</html>
